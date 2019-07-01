@@ -1,0 +1,56 @@
+{extend name="public/base" /}
+{block name="seo"}{/block}
+{block name="header"}{/block}
+{block name="mean"}{/block}
+{block name="content"}
+<title>用户查看</title>
+</head>
+<body>
+<div class="cl pd-20" style=" background-color:#5bacb6">
+  <img class="avatar size-XL l" src="__STATIC__/static/h-ui/images/touxiang.png">
+  <dl style="margin-left:80px; color:#fff">
+    {if condition="$data.empty eq 1" }
+    <dt>用户信息未查到</dt>
+    {else /}
+    <dt><span class="f-18">{$data.info.name}</span></dt>
+    <dd class="pt-10 f-12" style="margin-left:0">{$data.info.roleName}</dd>
+    {/if}
+  </dl>
+</div>
+<div class="pd-20">
+  <table class="table">
+    <tbody>
+      {if condition="$data.empty eq 1" }\
+          <tr>
+            <th>用户信息未查到</th>
+          </tr>
+      {else /}
+          <tr>
+            <th class="text-r">email：</th>
+            <td>{$data.info.email}</td>
+          </tr>
+          <tr>
+            <th class="text-r">角色：</th>
+            <td>{$data.info.roleName}</td>
+          </tr>
+          <tr>
+            <th class="text-r">启用状态：</th>
+            <td>{$data.info.statusName}</td>
+          </tr>
+          <tr>
+            <th class="text-r">创建时间：</th>
+            <td>{$data.info.create_time}</td>
+          </tr>
+          <tr>
+            <th class="text-r">登录次数：</th>
+            <td>{$data.info.login_count}</td>
+          </tr>
+      {/if}
+    </tbody>
+  </table>
+</div>
+{/block}
+{block name="js"}
+{/block}
+</body>
+</html>

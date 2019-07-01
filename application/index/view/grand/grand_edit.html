@@ -1,0 +1,122 @@
+{extend name="public/base" /}
+{block name="seo"}
+{/block}
+{block name="header"}
+{/block}
+{block name="menu"}{/block}
+{block name="content"}
+<article class="cl pd-20">
+	{if condition="$data.empty eq 1"}
+		<p>{$data.msg}</p>
+	{else /}
+	<form action="" method="post" class="form form-horizontal" id="form-member-add">
+		<input type="hidden" name="" class="grandId" value="{$data.info.id}">
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>班级名：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<input type="text" class="input-text programName" value="{$data.info.name}" placeholder="" id="username" name="programName">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">
+			<span class="c-red">*</span>班级描述：</label>
+			<div class="formControls col-xs-8 col-sm-9">
+				<textarea name="beizhu" cols="" rows="" class="textarea miaoshu" value="{$data.info.detail}"  placeholder="说点什么...最少输入10个字符">{$data.info.detail}</textarea>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-xs-4 col-sm-3">
+			<span class="c-red">*</span>添加课程：</label>
+			<div class="formControls col-xs-8 col-sm-9" style="border:#e5e5e5 1px solid;border-radius:5px;">
+				{if condition="$data.count eq 0"}
+					<p>未发现课程信息，请添加课程后，再继续绑定</p>
+				{else /}
+					{foreach name="data.programList" item="program"}
+						<span class="pro" style="width:20%;float:left;">
+						{$program.name}：<input type="checkbox" name="programList" value="{$program.id}"
+						{if condition="in_array($program.id, $data.proList) eq true"}
+							checked="checked" 
+						{/if}
+						>
+						</span>
+					{/foreach}
+				{/if}
+			</div>
+		</div>
+		<div class="row cl">
+			<div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+				<input class="btn btn-primary radius" type="button" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+			</div>
+		</div>
+	</form>
+	{/if}
+</article>
+{/block}
+
+{block name="js"}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/jquery.validate.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/validate-methods.js"></script> 
+<script type="text/javascript" src="__STATIC__/lib/jquery.validation/1.14.0/messages_zh.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$('.skin-minimal input').iCheck({
+		checkboxClass: 'icheckbox-blue',
+		radioClass: 'iradio-blue',
+		increaseArea: '20%'
+	});
+	// 添加
+	$('.btn-primary').on('click', function () {
+		var detail = $('.miaoshu').val();
+		var name = $('.programName').val();
+		if (name == '') {
+			alert('班级名称不能为空，请检查');
+			return false;
+		}
+		if (detail == '') {
+			alert('班级描述不能为空，请检查');
+			return false;
+		}
+		var l = $('input[name="programList"][type="checkbox"]:checked').length;
+		if (l == 0) {
+			alert('未选中课程，请检查');
+			return false;
+		}
+		var programIds = [];
+		for (var i = 0; i < l; i++) {
+			var obj = $('input[name="programList"][type="checkbox"]:checked').eq(i);
+			programIds.push(obj.val());
+		}
+		programIds = programIds.join(',');
+		var data = {
+			name: name,
+			detail: detail,
+			programIds: programIds,
+			// creator_id: $('#userId').val()
+			grandId: $('.grandId').val()
+		};
+		// console.log(data);
+		$.ajax({
+			type: 'POST',
+			url: '{:url(\'grand/grandUpdate\')}',
+			data: data,
+			dataType: 'json',
+			success: function (data) {
+				if (data.status == 0) {
+					layer.msg(data.msg,{icon: 6,time:500});
+					setTimeout(function (){
+						parent.layer.closeAll();
+					},500);
+				} else {
+					layer.msg(data.msg,{icon: 5,time:1000});	
+				}
+			}
+		});
+	});
+});
+</script> 
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+</body>
+</html>

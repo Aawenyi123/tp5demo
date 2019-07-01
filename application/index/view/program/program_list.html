@@ -1,0 +1,115 @@
+{extend name="public/base" /}
+{block name="seo"}
+<title>课程列表 - 课程管理 - 教学管理系统</title>
+<meta name="keywords" content="{$keywords|default='关键字'}">
+<meta name="description" content="{$description|default='描述'}">
+</head>
+<body>
+{/block}
+
+{block name="content"}
+<section class="Hui-article-box">
+	<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 课程管理 <span class="c-gray en">&gt;</span> 课程列表<a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+	<div class="Hui-article">
+		<article class="cl pd-20">
+			<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l">
+			<a href="javascript:;" onclick="member_add('添加课程','{:url(\'program/programAdd\')}','','510')" class="btn btn-primary radius"><i class="Hui-iconfont">&#xe600;</i> 添加课程</a>
+			</span> <span class="r">共有数据：<strong>{$data.totalNum}</strong> 条</span> </div>
+			<div class="mt-20">
+				<table class="table table-border table-bordered table-hover table-bg table-sort">
+					<thead>
+						<tr class="text-c">
+							<th width="25"><input type="checkbox" name="" value=""></th>
+							<th width="80">ID</th>
+							<th width="100">课程名</th>
+							<th width="40">创建人</th>
+							<th width="90">创建时间</th>
+							<th width="200">课程描述</th>
+							<th width="100">操作</th>
+						</tr>
+					</thead>
+					<tbody>
+					{foreach name="data.list" item="program"}
+						<tr class="text-c">
+							<td><input type="checkbox" value="1" name=""></td>
+							<td>{$program.id}</td>
+							<td>{$program.name}</td>
+							<td>{$program.creator_name}</td>
+							<td>{$program.create_time||date="Y-m-d H:i:s",###}</td>
+							<td>{$program.detail}</td>
+							<td class="td-manage">
+							<a title="编辑" href="javascript:;" onclick="member_edit('编辑','{:url(\'program/programEdit\')}','{$program.id}','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a>
+							<a title="删除" href="javascript:;" onclick="member_del(this,'{$program.id}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+						</tr>
+					{/foreach}
+					</tbody>
+				</table>
+			</div>
+		</article>
+	</div>
+</section>
+{/block}
+{block name="js"}
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="__STATIC__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="__STATIC__/lib/laypage/1.2/laypage.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('.table-sort').dataTable({
+		"aaSorting": [[ 1, "desc" ]],//默认第几个排序
+		"bStateSave": true,//状态保存
+		"aoColumnDefs": [
+		  //{"bVisible": false, "aTargets": [ 3 ]} //控制列的隐藏显示
+		  {"orderable":false,"aTargets":[6]}// 制定列不参与排序 排序规则
+		]
+	});
+	$('.table-sort tbody').on( 'click', 'tr', function () {
+		if ( $(this).hasClass('selected') ) {
+			$(this).removeClass('selected');
+		}
+		else {
+			table.$('tr.selected').removeClass('selected');
+			$(this).addClass('selected');
+		}
+	});
+});
+/*用户-添加*/
+function member_add(title,url,w,h){
+	layer_show(title,url,w,h);
+}
+/*用户-编辑*/
+function member_edit(title,url,id,w,h){
+	layer_show(title,url+'?id='+id,w,h);
+}
+/*密码-修改*/
+function change_password(title,url,id,w,h){
+	layer_show(title,url,w,h);
+}
+/*用户-删除*/
+function member_del(obj,id){
+	layer.confirm('确认要删除吗？',function(index){
+		$.ajax({
+			type: 'POST',
+			url: '{:url(\'program/programDelete\')}',
+			data:{
+				id: id
+			},
+			dataType: 'json',
+			success: function (data) {
+				if (data.status == 0) {
+					$(obj).parents("tr").remove();
+					layer.msg(data.msg,{icon:1,time:1000});
+				} else {
+					// 失败
+					layer.msg(data.msg,{icon:5,time:1000});
+				}
+			}
+		});
+	});
+}
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+{/block}
+</body>
+</html>
