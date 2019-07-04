@@ -1,0 +1,3968 @@
+---------------------------------------------------------------
+[ 2019-06-26T11:43:44+08:00 ] 127.0.0.1 GET www.mytp5.com/
+[ error ] [1]Call to undefined method app\index\controller\Index::view()
+---------------------------------------------------------------
+[ 2019-06-26T11:51:53+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-06-26T22:19:26+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:19:33+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:19:46+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:20:32+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:21:18+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:21:20+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:21:22+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:21:42+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:21:44+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)
+---------------------------------------------------------------
+[ 2019-06-26T22:31:52+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559512
+[运行时间：0.355927s] [吞吐率：2.81req/s] [内存消耗：1,405.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'id1561559512' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:31:55+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559515
+[运行时间：0.151387s] [吞吐率：6.61req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'id1561559515' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:32:04+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.221342s] [吞吐率：4.52req/s] [内存消耗：1,404.76kb] [文件加载：39]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '38',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'kwud',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)[C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php:59]
+---------------------------------------------------------------
+[ 2019-06-26T22:33:04+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559584
+[运行时间：0.115917s] [吞吐率：8.63req/s] [内存消耗：1,405.49kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'id1561559584' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:33:05+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559585
+[运行时间：0.150637s] [吞吐率：6.64req/s] [内存消耗：1,405.46kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'id1561559585' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:33:44+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.156883s] [吞吐率：6.37req/s] [内存消耗：1,690.69kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'cjm8w',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:34:36+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.221990s] [吞吐率：4.50req/s] [内存消耗：1,690.80kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'cjm8w',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:35:10+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.200165s] [吞吐率：5.00req/s] [内存消耗：1,690.80kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'cjm8w',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:35:20+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.261825s] [吞吐率：3.82req/s] [内存消耗：1,694.95kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:35:20+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.289753s] [吞吐率：3.45req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=77',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:35:24+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559724
+[运行时间：0.181456s] [吞吐率：5.51req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+  'id1561559724' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:35:49+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.170584s] [吞吐率：5.86req/s] [内存消耗：1,690.69kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'ak27y',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:36:24+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559784
+[运行时间：0.168427s] [吞吐率：5.94req/s] [内存消耗：1,405.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+  'id1561559784' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:36:26+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561559786
+[运行时间：0.168377s] [吞吐率：5.94req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+  'id1561559786' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:36:33+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.189891s] [吞吐率：5.27req/s] [内存消耗：1,661.65kb] [文件加载：43]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'klses',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:40:37+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.274420s] [吞吐率：3.64req/s] [内存消耗：1,403.49kb] [文件加载：39]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=78',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'else' (T_ELSE), expecting function (T_FUNCTION)[C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php:60]
+---------------------------------------------------------------
+[ 2019-06-26T22:42:13+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.317915s] [吞吐率：3.15req/s] [内存消耗：1,697.13kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=79',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:42:14+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.378225s] [吞吐率：2.64req/s] [内存消耗：1,405.24kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=79',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:42:30+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560149
+[运行时间：0.153744s] [吞吐率：6.50req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id1561560149' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:42:31+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560151
+[运行时间：0.153245s] [吞吐率：6.53req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id1561560151' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:42:48+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.244707s] [吞吐率：4.09req/s] [内存消耗：1,701.45kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'voivc',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:42:51+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560171
+[运行时间：0.150592s] [吞吐率：6.64req/s] [内存消耗：1,405.54kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id1561560171' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:43:02+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.511545s] [吞吐率：1.95req/s] [内存消耗：2,822.45kb] [文件加载：54]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'hke55',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033327s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.066610s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001596s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:43:08+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.181155s] [吞吐率：5.52req/s] [内存消耗：1,700.92kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '1234562',
+  'verify' => 'hke55',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:43:10+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560190
+[运行时间：0.176907s] [吞吐率：5.65req/s] [内存消耗：1,405.46kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id1561560190' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:43:14+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560194
+[运行时间：0.239032s] [吞吐率：4.18req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id1561560194' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:43:26+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.560630s] [吞吐率：1.78req/s] [内存消耗：2,822.19kb] [文件加载：54]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '1234562',
+  'verify' => 'tan38',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010854s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030562s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = '6978915ee7dbc5aff1bc34b59e8c0fc5' LIMIT 1 [ RunTime:0.000814s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:45:42+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：3.455312s] [吞吐率：0.29req/s] [内存消耗：1,842.43kb] [文件加载：47]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:45:43+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.418267s] [吞吐率：2.39req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=80',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:47:18+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.539596s] [吞吐率：1.85req/s] [内存消耗：2,822.45kb] [文件加载：54]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=81',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'rv4ht',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002247s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032209s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000989s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:47:19+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560439
+[运行时间：0.247342s] [吞吐率：4.04req/s] [内存消耗：1,405.52kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=81',
+)
+[ info ] [ PARAM ] array (
+  'id1561560439' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:47:20+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index.html
+[运行时间：0.580737s] [吞吐率：1.72req/s] [内存消耗：1,792.94kb] [文件加载：46]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=81',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:47:21+08:00 ] 127.0.0.1 GET www.mytp5.com/index/favicon.ico
+[运行时间：0.307460s] [吞吐率：3.25req/s] [内存消耗：1,385.98kb] [文件加载：39]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=82',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:48:18+08:00 ] 127.0.0.1 GET www.mytp5.com/user/login
+[运行时间：0.285597s] [吞吐率：3.50req/s] [内存消耗：1,380.09kb] [文件加载：38]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'user',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=82',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:48:33+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.477412s] [吞吐率：2.09req/s] [内存消耗：1,696.91kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=83',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:48:33+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.343919s] [吞吐率：2.91req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=83',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:49:48+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.263017s] [吞吐率：3.80req/s] [内存消耗：1,842.41kb] [文件加载：47]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=84',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:49:48+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.283480s] [吞吐率：3.53req/s] [内存消耗：1,405.23kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=84',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:49:54+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.217894s] [吞吐率：4.59req/s] [内存消耗：1,643.30kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '57',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'adda',
+  'password' => '',
+  'verify' => '验证码:',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:49:56+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560596
+[运行时间：0.239222s] [吞吐率：4.18req/s] [内存消耗：1,405.54kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560596' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:49:58+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.210321s] [吞吐率：4.75req/s] [内存消耗：1,643.29kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'adda',
+  'password' => '',
+  'verify' => 'dw',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:50:00+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560599
+[运行时间：0.289195s] [吞吐率：3.46req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560599' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:50:01+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.244803s] [吞吐率：4.08req/s] [内存消耗：1,701.42kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'adda',
+  'password' => 'daw',
+  'verify' => 'dw',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:50:03+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560603
+[运行时间：0.225647s] [吞吐率：4.43req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560603' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:50:06+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.349993s] [吞吐率：2.86req/s] [内存消耗：1,701.42kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '33',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'adda',
+  'password' => 'daw',
+  'verify' => 'dww',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:50:08+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560607
+[运行时间：0.251869s] [吞吐率：3.97req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560607' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:51:43+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.666303s] [吞吐率：1.50req/s] [内存消耗：2,790.67kb] [文件加载：52]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => '2bexz',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002990s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.025177s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001892s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:52:05+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.588366s] [吞吐率：1.70req/s] [内存消耗：1,701.20kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => '2bexz',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:52:10+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560727
+[运行时间：2.749000s] [吞吐率：0.36req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560727' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:52:12+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560732
+[运行时间：0.263878s] [吞吐率：3.79req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560732' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:52:21+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.324626s] [吞吐率：3.08req/s] [内存消耗：2,790.67kb] [文件加载：52]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'f7jfm',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003074s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047327s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.001077s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:54:13+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560853
+[运行时间：0.209363s] [吞吐率：4.78req/s] [内存消耗：1,405.48kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560853' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:54:15+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561560854
+[运行时间：0.139243s] [吞吐率：7.18req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id1561560854' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:54:23+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.274062s] [吞吐率：3.65req/s] [内存消耗：2,787.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'm3ytf',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002202s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027784s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.002825s ]
+---------------------------------------------------------------
+[ 2019-06-26T22:56:03+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.278427s] [吞吐率：3.59req/s] [内存消耗：2,002.20kb] [文件加载：49]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'm3ytf',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for think\Model::get(), called in C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php on line 17 and defined[C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\library\think\Model.php:1696]
+---------------------------------------------------------------
+[ 2019-06-26T22:56:11+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.351882s] [吞吐率：2.84req/s] [内存消耗：1,699.13kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:56:11+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.267274s] [吞吐率：3.74req/s] [内存消耗：1,405.25kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=85',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:56:14+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.260563s] [吞吐率：3.84req/s] [内存消耗：2,002.20kb] [文件加载：49]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '53',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=86',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'password' => '',
+  'verify' => '验证码:',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 1 for think\Model::get(), called in C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php on line 17 and defined[C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\library\think\Model.php:1696]
+---------------------------------------------------------------
+[ 2019-06-26T22:56:42+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.276302s] [吞吐率：3.62req/s] [内存消耗：1,699.22kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=86',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:56:42+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.284302s] [吞吐率：3.52req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=86',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T22:56:44+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.284837s] [吞吐率：3.51req/s] [内存消耗：2,675.70kb] [文件加载：50]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '53',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=87',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'password' => '',
+  'verify' => '验证码:',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001895s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032583s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 1 [ RunTime:0.001253s ]
+---------------------------------------------------------------
+[ 2019-06-26T23:02:08+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.330927s] [吞吐率：3.02req/s] [内存消耗：1,698.09kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=87',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:02:08+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.302478s] [吞吐率：3.31req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=87',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:02:20+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561340
+[运行时间：0.194516s] [吞吐率：5.14req/s] [内存消耗：1,405.53kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561340' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:02:21+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561341
+[运行时间：0.175454s] [吞吐率：5.70req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561341' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:02:33+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.279783s] [吞吐率：3.57req/s] [内存消耗：2,787.55kb] [文件加载：52]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'nkybf',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001654s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028511s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.004673s ]
+---------------------------------------------------------------
+[ 2019-06-26T23:03:01+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561380
+[运行时间：0.164414s] [吞吐率：6.08req/s] [内存消耗：1,405.44kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561380' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:03:03+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561382
+[运行时间：0.198435s] [吞吐率：5.04req/s] [内存消耗：1,405.46kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561382' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:03:04+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561384
+[运行时间：0.181787s] [吞吐率：5.50req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561384' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:03:09+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561388
+[运行时间：0.303646s] [吞吐率：3.29req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561388' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:03:20+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.310545s] [吞吐率：3.22req/s] [内存消耗：2,822.68kb] [文件加载：54]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456w',
+  'verify' => 'pjx2u',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003217s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030187s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = '7adaa756553ba9eb6a235080f6263b5b' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2019-06-26T23:03:21+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561561401
+[运行时间：0.386328s] [吞吐率：2.59req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id1561561401' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:31+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.244149s] [吞吐率：4.10req/s] [内存消耗：1,693.84kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:31+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.359740s] [吞吐率：2.78req/s] [内存消耗：1,405.26kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=88',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.237308s] [吞吐率：4.21req/s] [内存消耗：1,693.84kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=89',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:35+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.257019s] [吞吐率：3.89req/s] [内存消耗：1,405.26kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=89',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:58+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.233540s] [吞吐率：4.28req/s] [内存消耗：1,693.84kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=90',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:13:58+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.239645s] [吞吐率：4.17req/s] [内存消耗：1,405.24kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=90',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:14:17+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561562057
+[运行时间：0.185670s] [吞吐率：5.39req/s] [内存消耗：1,405.46kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'id1561562057' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:14:25+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.290998s] [吞吐率：3.44req/s] [内存消耗：2,866.41kb] [文件加载：56]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'dcysb',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001647s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031519s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.002390s ]
+[ error ] [1]Class 'app\index\controller\Session' not found[C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php:62]
+---------------------------------------------------------------
+[ 2019-06-26T23:14:40+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.212061s] [吞吐率：4.72req/s] [内存消耗：1,697.66kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'dcysb',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:14:42+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561562082
+[运行时间：0.212896s] [吞吐率：4.70req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'id1561562082' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:14:44+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561562083
+[运行时间：0.207641s] [吞吐率：4.82req/s] [内存消耗：1,405.51kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'id1561562083' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:14:46+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561562086
+[运行时间：0.180187s] [吞吐率：5.55req/s] [内存消耗：1,405.45kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'id1561562086' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:15:02+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.306922s] [吞吐率：3.26req/s] [内存消耗：2,866.41kb] [文件加载：56]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'mwz3d',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001880s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029413s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000674s ]
+[ error ] [1]Class 'app\index\controller\Session' not found[C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php:62]
+---------------------------------------------------------------
+[ 2019-06-26T23:17:37+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/login
+[运行时间：0.312407s] [吞吐率：3.20req/s] [内存消耗：1,693.71kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:17:37+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.323169s] [吞吐率：3.09req/s] [内存消耗：1,405.27kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=91',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:17:57+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.273998s] [吞吐率：3.65req/s] [内存消耗：2,820.39kb] [文件加载：53]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=92',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'wjaqd',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001913s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028539s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000666s ]
+---------------------------------------------------------------
+[ 2019-06-26T23:17:58+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561562278
+[运行时间：0.249559s] [吞吐率：4.01req/s] [内存消耗：1,406.54kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=92',
+)
+[ info ] [ PARAM ] array (
+  'id1561562278' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:17:59+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/index.html
+[运行时间：0.350605s] [吞吐率：2.85req/s] [内存消耗：1,631.11kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=92',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:17:59+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/favicon.ico
+[运行时间：0.230474s] [吞吐率：4.34req/s] [内存消耗：1,665.07kb] [文件加载：46]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=93',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:18:16+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/index.html
+[运行时间：0.250138s] [吞吐率：4.00req/s] [内存消耗：1,631.38kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=93',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:23:08+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/index.html
+[运行时间：0.418616s] [吞吐率：2.39req/s] [内存消耗：1,796.15kb] [文件加载：46]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=94',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:25:19+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/index.html
+[运行时间：0.277820s] [吞吐率：3.60req/s] [内存消耗：1,857.25kb] [文件加载：47]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=95',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:25:22+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/logout.html
+[运行时间：0.213990s] [吞吐率：4.67req/s] [内存消耗：1,629.70kb] [文件加载：42]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=96',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->logout[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:29:37+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/logout.html
+[运行时间：0.250463s] [吞吐率：3.99req/s] [内存消耗：1,697.16kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=97',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->logout[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:29:38+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.238624s] [吞吐率：4.19req/s] [内存消耗：1,405.30kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=97',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:29:46+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index
+[运行时间：0.201516s] [吞吐率：4.96req/s] [内存消耗：1,693.93kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=98',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:29:53+08:00 ] 127.0.0.1 GET www.mytp5.com/index/user/logout.html
+[运行时间：0.226232s] [吞吐率：4.42req/s] [内存消耗：1,696.86kb] [文件加载：44]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=99',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->logout[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:29:53+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha.html
+[运行时间：0.279221s] [吞吐率：3.58req/s] [内存消耗：1,405.30kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=99',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:30:07+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561563006
+[运行时间：0.190342s] [吞吐率：5.25req/s] [内存消耗：1,405.55kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+  'id1561563006' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:30:08+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561563008
+[运行时间：0.128599s] [吞吐率：7.78req/s] [内存消耗：1,405.56kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+  'id1561563008' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:30:09+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561563009
+[运行时间：0.170825s] [吞吐率：5.85req/s] [内存消耗：1,405.58kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+  'id1561563009' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:30:24+08:00 ] 127.0.0.1 POST www.mytp5.com/index/user/checklogin.html
+[运行时间：0.235004s] [吞吐率：4.26req/s] [内存消耗：2,821.48kb] [文件加载：53]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.mytp5.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'j5geh',
+)
+[ info ] [ RUN ] app\index\controller\User->checkLogin[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009103s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029181s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2019-06-26T23:30:25+08:00 ] 127.0.0.1 GET www.mytp5.com/captcha?id1561563025
+[运行时间：0.186993s] [吞吐率：5.35req/s] [内存消耗：1,406.51kb] [文件加载：37]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+  'id1561563025' => '',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ C:\myphp_www\PHPTutorial\WWW\tp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-06-26T23:30:25+08:00 ] 127.0.0.1 GET www.mytp5.com/index/index/index.html
+[运行时间：0.334535s] [吞吐率：2.99req/s] [内存消耗：1,695.30kb] [文件加载：45]
+[ info ] [ LANG ] C:\myphp_www\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.mytp5.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.mytp5.com/index/user/logout.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '__guid=110903939.820868548107133200.1561476789023.2334; pgv_pvi=9168614400; pgv_si=s9481065472; Hm_lvt_080836300300be57b7f34f4b3e97d911=1561477835; PHPSESSID=l76bc06ment2t6r4jbjv6rtpt2; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1561549104; monitor_count=100',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\myphp_www\PHPTutorial\WWW\tp5\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

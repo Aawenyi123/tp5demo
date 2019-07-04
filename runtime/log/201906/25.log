@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2019-06-25T23:35:12+08:00 ] 127.0.0.1 GET www.mytp5.com/
+[ error ] [1]Call to undefined method app\index\controller\Index::view()
+---------------------------------------------------------------
+[ 2019-06-25T23:35:39+08:00 ] 127.0.0.1 GET www.mytp5.com/
+[ error ] [1]Call to undefined method app\index\controller\Index::view()
+---------------------------------------------------------------
+[ 2019-06-25T23:42:10+08:00 ] 127.0.0.1 GET www.mytp5.com/
+[ error ] [0]模板文件不存在:C:\myphp_www\PHPTutorial\WWW\tp5\public/../application/index\view\index\ce.html
+---------------------------------------------------------------
+[ 2019-06-25T23:51:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-06-25T23:51:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-06-25T23:51:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-06-25T23:51:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
+---------------------------------------------------------------
+[ 2019-06-25T23:51:34+08:00 ] 127.0.0.1 GET www.mytp5.com/index.php
+[ error ] [1]Maximum execution time of 60 seconds exceeded
